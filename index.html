@@ -7,17 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="click" onclick="click">Click me!</button>
-    <button id="dblclick" ondblclick="dblclick">Click me 2 times!</button>
-    <select id="demo" onchange="select">
+    <button id="cliCk" onclick="clickBtn()">Click me!</button>
+    <button id="dbLcliCk" ondblclick="dblclickBtn()">Click me 2 times!</button>
+    <select id="demo" onchange="select()">
         <option value="USA">USA</option>
         <option value="RUSSIA">RUSSIA</option>
         <option value="CHINA">CHINA</option>
     </select>
-    <h1 id="focus" onfocus="focus">Welcome!</h1>
-    <h2 id="blur" onblur="blur">Nice to meet you!</h2>
-    <p id="mouseover" onmouseover="mouseover">lorem ipsum</p>
-    <p id="mouseleave" onmouseleave="mouseleave">lorem ipsum</p>
+    <p id="moUseOver" onmouseover="over()" onmouseleave="leave()">lorem ipsum</p>
+    <p id="moUseLeave" onmouseleave="leave()">lorem ipsum</p>
     <script src="js/script.js"></script>
 </body>
 </html>
